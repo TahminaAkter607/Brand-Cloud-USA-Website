@@ -1,0 +1,31 @@
+:root { --bg:#040614; --panel:#0d1229; --text:#eef2ff; --muted:#b7c0db; --accent:#2e73ff; }
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,sans-serif;background:linear-gradient(180deg,#050817,#0c1023);color:var(--text);line-height:1.5}
+.container{width:min(1140px,92%);margin:0 auto}
+.site-header{position:sticky;top:0;background:#050817e6;border-bottom:1px solid #1b2448;backdrop-filter:blur(8px);z-index:10}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.9rem 0}
+.logo img{height:44px}.nav-wrap nav{display:flex;gap:1rem;flex-wrap:wrap}
+a{color:var(--text);text-decoration:none}.nav-wrap nav a{font-size:.92rem;color:#d6ddf6}
+.nav-wrap nav a.active-link{color:#7ca6ff;font-weight:700}
+.actions{display:flex;align-items:center;gap:.8rem}.lang{font-size:.85rem;color:#b9c2df}.lang.active{font-weight:700;color:#fff}
+.btn{background:var(--accent);padding:.6rem 1rem;border-radius:999px;font-weight:600;border:none;color:white;cursor:pointer;display:inline-block}
+.hero{padding:6rem 0 4rem;background:radial-gradient(circle at 10% 10%,#1f3f8f,transparent 45%)}
+.hero h1{font-size:clamp(2rem,7vw,4.2rem);line-height:1.1;margin:0 0 1rem;font-weight:800}
+.hero p{max-width:760px;color:var(--muted);font-size:1.05rem;margin-bottom:1.6rem}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:1rem auto 4rem}
+.stats article{background:var(--panel);padding:1.1rem;border:1px solid #1d2a56;border-radius:14px;text-align:center}
+.stats h2{font-size:2rem;margin:0}.stats p{color:var(--muted);font-size:.92rem;min-height:3rem}.stats img{height:36px}
+.services,.about,.ceo,.inner-page{padding:1rem 0 3rem}
+h3{font-size:2rem;margin-bottom:.5rem}.section-lead{color:var(--muted);margin-bottom:1.5rem}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.card{background:var(--panel);border:1px solid #1d2a56;border-radius:14px;padding:1rem}
+.card img,.banner{width:100%;border-radius:10px;margin:.6rem 0}
+.card p,p,li{color:var(--muted);font-size:.95rem}.card a{color:#7ca6ff;font-weight:600}
+.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem}.about-grid img{width:100%;border-radius:10px}
+.ceo{text-align:center}.portrait{width:220px;border-radius:999px;border:4px solid #1e2e62}
+.inner-page h1{font-size:clamp(2rem,5vw,3rem)}
+.faq{background:var(--panel);border:1px solid #1d2a56;border-radius:12px;padding:1rem;margin-bottom:.8rem}
+.contact-form{display:grid;gap:.75rem;max-width:680px}.contact-form input,.contact-form textarea{background:#0a0f22;border:1px solid #263469;color:#fff;border-radius:8px;padding:.8rem}
+.site-footer{background:#050715;border-top:1px solid #1b2448;padding:3rem 0 1.5rem}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:1rem}
+.footer-logo{height:38px;margin-bottom:1rem}.site-footer h4{margin:.2rem 0 .7rem}.site-footer section{display:flex;flex-direction:column;gap:.45rem}
+.site-footer p,.site-footer a{color:var(--muted);font-size:.93rem}.copyright{text-align:center;color:#8f99b8;font-size:.85rem;margin-top:2rem}
+@media (max-width:900px){.stats{grid-template-columns:repeat(2,1fr)}.cards,.about-grid,.footer-grid{grid-template-columns:1fr}.nav-wrap nav{display:none}}
