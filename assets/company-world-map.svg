@@ -1,0 +1,28 @@
+<svg width="1040" height="420" viewBox="0 0 1040 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mapGrad" x1="0" y1="210" x2="1040" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3F5E95"/>
+      <stop offset="0.5" stop-color="#5F83BC"/>
+      <stop offset="1" stop-color="#334A76"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1040" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1C2D4A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M101 117C141 82 204 62 266 71C290 75 308 84 325 95C339 104 358 107 370 98C394 79 431 64 466 66C508 69 535 88 555 116C566 132 589 138 607 131C632 121 666 116 700 122C758 132 801 168 814 220C818 236 832 247 848 248C879 249 906 261 926 284C942 303 950 326 950 349H900C865 349 832 335 809 309C792 290 767 278 740 276L690 272C660 269 631 281 610 303L591 322C565 349 528 364 490 364H429C394 364 360 350 333 325L311 304C289 282 258 271 227 275L173 282C143 286 113 274 94 251C74 227 68 193 77 162C82 144 89 129 101 117Z" fill="url(#mapGrad)"/>
+    <path d="M73 178C90 165 116 157 141 158C161 159 176 165 188 175C198 183 213 185 225 180C241 173 260 171 279 174C309 178 332 197 340 224C343 233 351 240 360 243C374 247 386 256 394 268C404 282 409 298 409 315H371C349 315 328 307 313 292C301 280 284 272 266 270L238 267C218 264 198 271 184 286L172 299C155 316 133 325 109 325H82C64 325 49 317 37 304C16 282 8 254 14 227C18 207 29 192 44 184L73 178Z" fill="url(#mapGrad)"/>
+    <path d="M430 95C451 80 481 72 510 75C542 79 566 97 578 123C585 139 603 148 619 145C631 143 644 144 657 147C690 154 714 181 721 214C724 229 736 239 751 240C773 242 792 252 806 268C821 286 828 309 828 333H784C756 333 729 322 711 302C699 289 682 281 664 279L636 276C616 273 597 280 583 294L564 313C546 331 522 341 497 341H470C444 341 419 331 400 313L384 297C370 283 351 276 332 276H315C297 276 280 269 267 257C250 242 240 219 241 195C243 162 268 134 301 127C317 123 331 114 343 102C364 82 396 74 430 95Z" fill="url(#mapGrad)"/>
+    <path d="M766 135C789 119 820 112 850 116C879 120 902 135 916 157C924 170 938 178 953 180C976 182 997 192 1012 209C1031 231 1040 260 1040 289H1006C979 289 954 278 936 259C924 246 908 238 891 237L865 234C845 232 825 239 810 252L801 260C783 276 761 285 737 285H713C695 285 678 278 664 266C648 252 639 232 640 211C642 182 661 156 688 146C700 142 711 135 720 126C733 113 751 110 766 135Z" fill="url(#mapGrad)"/>
+  </g>
+  <g>
+    <rect x="64" y="185" width="94" height="40" rx="14" fill="white" stroke="#CBD5E1" stroke-width="2"/>
+    <image href="./brandcloud-usa-logo.svg" x="77" y="194" width="68" height="22"/>
+    <rect x="368" y="150" width="94" height="40" rx="14" fill="white" stroke="#CBD5E1" stroke-width="2"/>
+    <image href="./brandcloud-usa-logo.svg" x="381" y="159" width="68" height="22"/>
+    <rect x="575" y="226" width="94" height="40" rx="14" fill="white" stroke="#CBD5E1" stroke-width="2"/>
+    <image href="./brandcloud-usa-logo.svg" x="588" y="235" width="68" height="22"/>
+    <rect x="788" y="186" width="94" height="40" rx="14" fill="white" stroke="#CBD5E1" stroke-width="2"/>
+    <image href="./brandcloud-usa-logo.svg" x="801" y="195" width="68" height="22"/>
+  </g>
+</svg>
